@@ -4,7 +4,7 @@ const conexion = async() => {
 
     try {
 
-        await mongoose.connect("mongodb+srv://nancyq:protalento1@blog.h3umgsn.mongodb.net/?retryWrites=true&w=majority");
+        await mongoose.connect("mongodb+srv://nancyq:protalento1@proyectos.eycogga.mongodb.net/blog?retryWrites=true&w=majority");
 
         // Parametros dentro de objeto // solo en caso de aviso
         // useNewUrlParser: true
